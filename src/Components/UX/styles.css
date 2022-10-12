@@ -1,0 +1,50 @@
+.app-main {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.header-main {
+  height: 50px;
+  background-color: lightcoral;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.score-display {
+  display: flex;
+}
+.score-display p {
+  padding: 10px;
+}
+
+.card-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-main img {
+  object-fit: cover;
+  overflow: hidden;
+  width: 15vw;
+  height: 15vw;
+  cursor: pointer;
+}
+
+.card-main h3 {
+  text-transform: capitalize;
+  font-size: 25px;
+  margin: 10px;
+}
+.cards-container {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1f;
+  gap: 10px;
+  height: 80vh;
+}
